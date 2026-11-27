@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whitesquare — Grid Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Верхняя акцентная полоса -->
+  <div class="top-line"></div>
+
+  <div class="container">
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="logo">
+        <span class="logo-box"></span>whitesquare
+      </div>
+      <form class="search-form">
+        <input type="text" placeholder="Search">
+        <button type="submit">GO</button>
+      </form>
+    </header>
+
+    <!-- Главное меню -->
+    <nav class="main-nav">
+      <a href="#" class="active">HOME</a>
+      <a href="#">ABOUT US</a>
+      <a href="#">SERVICES</a>
+      <a href="#">PARTNERS</a>
+      <a href="#">CUSTOMERS</a>
+      <a href="#">PROJECTS</a>
+      <a href="#">CAREERS</a>
+      <a href="#">CONTACT</a>
+    </nav>
+
+    <!-- Главный баннер -->
+    <section class="hero">
+      <div class="hero-banner">
+        <h1>FUSCE VITAE NIBH QUIS DIAM FERMENTUM</h1>
+        <p>Etiam adipiscing ultricies commodo.</p>
+      </div>
+      <div class="hero-tabs">
+        <div class="tab active"><span>1</span> LOREM IPSUM DOLOP</div>
+        <div class="tab"><span>2</span> ULTRICIES PELLENTESQUE</div>
+        <div class="tab"><span>3</span> ALIQUAM IPSUM</div>
+        <div class="tab"><span>4</span> NULLAM SED MAURIS UT</div>
+      </div>
+    </section>
+
+    <!-- Основной контент -->
+    <main class="main-content">
+      <!-- Ряд 1: 2 колонки -->
+      <section class="grid-2-cols">
+        <article class="card">
+          <h2 class="section-title">ABOUT WHITESQUARE</h2>
+          <div class="card-body">
+            <div class="img-placeholder large"></div>
+            <div>
+              <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc.</p>
+              <a href="#" class="read-more">Read more</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="section-title">A WORD FROM OUR CEO</h2>
+          <div class="card-body">
+            <div class="img-placeholder large"></div>
+            <div>
+              <blockquote>“In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc.”</blockquote>
+              <cite>Yane Naumoski, CEO</cite>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- Ряд 2: 3 колонки -->
+      <section class="grid-3-cols">
+        <article class="card">
+          <h2 class="section-title">SERVICES</h2>
+          <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean augue arcu, convallis ac vulputate vitae.</p>
+          <a href="#" class="read-more">Read more</a>
+        </article>
+
+        <article class="card">
+          <h2 class="section-title">OUR TEAMS</h2>
+          <div class="team-list">
+            <div class="team-item">
+              <div class="img-placeholder small"></div>
+              <div>
+                <h4>LOREM IPSUM</h4>
+                <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim.</p>
+              </div>
+            </div>
+            <div class="team-item">
+              <div class="img-placeholder small"></div>
+              <div>
+                <h4>LOREM IPSUM</h4>
+                <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim.</p>
+              </div>
+            </div>
+            <div class="team-item">
+              <div class="img-placeholder small"></div>
+              <div>
+                <h4>LOREM IPSUM</h4>
+                <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="section-title">27/7/365 SUPPORT</h2>
+          <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean augue arcu, convallis ac vulputate vitae.</p>
+          <a href="#" class="read-more">Read more</a>
+        </article>
+      </section>
+
+      <!-- Ряд 3: Клиенты -->
+      <section class="clients-section">
+        <h2 class="section-title">OUR CLIENTS</h2>
+        <div class="clients-grid">
+          <div class="client-logo">Client 1</div>
+          <div class="client-logo">Client 2</div>
+          <div class="client-logo">Client 3</div>
+          <div class="client-logo">Client 4</div>
+          <div class="client-logo">Client 5</div>
+          <div class="client-logo">Client 6</div>
+          <div class="client-logo">Client 7</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Подвал сайта -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>TWITTER FEED</h3>
+        <p class="date">23 oct</p>
+        <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>SITEMAP</h3>
+        <div class="sitemap-grid">
+          <a href="#">Home</a>
+          <a href="#">Partners</a>
+          <a href="#">About</a>
+          <a href="#">Support</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>SOCIAL NETWORKS</h3>
+        <div class="social-grid">
+          <a href="#" class="soc-big">t</a>
+          <a href="#" class="soc-big">f</a>
+          <a href="#" class="soc-big">g+</a>
+          <a href="#" class="soc-small">v</a>
+          <a href="#" class="soc-small">yt</a>
+          <a href="#" class="soc-small">fl</a>
+          <a href="#" class="soc-small">ig</a>
+          <a href="#" class="soc-small">rss</a>
+        </div>
+      </div>
+
+      <div class="footer-col footer-copy">
+        <div class="logo light">
+          <span class="logo-box"></span>whitesquare
+        </div>
+        <p>Copyright © 2012 Whitesquare. A pcklab creation</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
