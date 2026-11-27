@@ -3,22 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Whitesquare — Grid Layout</title>
+  <title>Whitesquare — Modern Grid</title>
+  <link rel="preconnect" href="https://googleapis.com">
+  <link href="https://googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Верхняя акцентная полоса -->
   <div class="top-line"></div>
 
   <div class="container">
     <!-- Шапка сайта -->
     <header class="header">
       <div class="logo">
-        <span class="logo-box"></span>whitesquare
+        <span class="logo-box"></span>white<b>square</b>
       </div>
       <form class="search-form">
-        <input type="text" placeholder="Search">
+        <input type="text" placeholder="Поиск по сайту...">
         <button type="submit">GO</button>
       </form>
     </header>
@@ -38,8 +39,9 @@
     <!-- Главный баннер -->
     <section class="hero">
       <div class="hero-banner">
+        <span class="badge">WEB STUDIO</span>
         <h1>FUSCE VITAE NIBH QUIS DIAM FERMENTUM</h1>
-        <p>Etiam adipiscing ultricies commodo.</p>
+        <p>Создаем современные цифровые продукты на основе продуманных сеток и яркого дизайна.</p>
       </div>
       <div class="hero-tabs">
         <div class="tab active"><span>1</span> LOREM IPSUM DOLOP</div>
@@ -56,10 +58,10 @@
         <article class="card">
           <h2 class="section-title">ABOUT WHITESQUARE</h2>
           <div class="card-body">
-            <div class="img-placeholder large"></div>
+            <img src="https://unsplash.com" alt="Офис" class="card-img large">
             <div>
-              <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc.</p>
-              <a href="#" class="read-more">Read more</a>
+              <p>Мы объединяем строгую геометрию CSS Grid и смелые цветовые решения, чтобы каждый проект выглядел уникально и запоминался пользователям.</p>
+              <a href="#" class="read-more">Читать далее →</a>
             </div>
           </div>
         </article>
@@ -67,9 +69,9 @@
         <article class="card">
           <h2 class="section-title">A WORD FROM OUR CEO</h2>
           <div class="card-body">
-            <div class="img-placeholder large"></div>
+            <img src="https://unsplash.com" alt="CEO" class="card-img large">
             <div>
-              <blockquote>“In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc.”</blockquote>
+              <blockquote>«Хороший дизайн — это баланс между строгой структурой и живыми эмоциями. Сетка дает порядок, а цвет — характер».</blockquote>
               <cite>Yane Naumoski, CEO</cite>
             </div>
           </div>
@@ -80,41 +82,41 @@
       <section class="grid-3-cols">
         <article class="card">
           <h2 class="section-title">SERVICES</h2>
-          <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean augue arcu, convallis ac vulputate vitae.</p>
-          <a href="#" class="read-more">Read more</a>
+          <p>Полный цикл разработки: от проектирования интерфейсов и прототипирования до адаптивной верстки любой сложности и запуска.</p>
+          <a href="#" class="read-more">Все услуги →</a>
         </article>
 
         <article class="card">
           <h2 class="section-title">OUR TEAMS</h2>
           <div class="team-list">
             <div class="team-item">
-              <div class="img-placeholder small"></div>
+              <img src="https://unsplash.com" alt="Дизайнер" class="card-img small">
               <div>
-                <h4>LOREM IPSUM</h4>
-                <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim.</p>
+                <h4>АННА СМИРНОВА</h4>
+                <p>Ведущий UI/UX дизайнер, эксперт по типографике.</p>
               </div>
             </div>
             <div class="team-item">
-              <div class="img-placeholder small"></div>
+              <img src="https://unsplash.com" alt="Разработчик" class="card-img small">
               <div>
-                <h4>LOREM IPSUM</h4>
-                <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim.</p>
+                <h4>МАКСИМ ВОЛКОВ</h4>
+                <p>Frontend-архитектор, мастер CSS Grid и анимаций.</p>
               </div>
             </div>
             <div class="team-item">
-              <div class="img-placeholder small"></div>
+              <img src="https://unsplash.com" alt="Менеджер" class="card-img small">
               <div>
-                <h4>LOREM IPSUM</h4>
-                <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim.</p>
+                <h4>ЕЛЕНА КОЗЛОВА</h4>
+                <p>Руководитель проектов и арт-директор студии.</p>
               </div>
             </div>
           </div>
         </article>
 
         <article class="card">
-          <h2 class="section-title">27/7/365 SUPPORT</h2>
-          <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean augue arcu, convallis ac vulputate vitae.</p>
-          <a href="#" class="read-more">Read more</a>
+          <h2 class="section-title">24/7/365 SUPPORT</h2>
+          <p>Наша команда технической поддержки всегда на связи. Помогаем обновлять контент, следим за скоростью загрузки и безопасностью.</p>
+          <a href="#" class="read-more">Связаться →</a>
         </article>
       </section>
 
@@ -122,13 +124,13 @@
       <section class="clients-section">
         <h2 class="section-title">OUR CLIENTS</h2>
         <div class="clients-grid">
-          <div class="client-logo">Client 1</div>
-          <div class="client-logo">Client 2</div>
-          <div class="client-logo">Client 3</div>
-          <div class="client-logo">Client 4</div>
-          <div class="client-logo">Client 5</div>
-          <div class="client-logo">Client 6</div>
-          <div class="client-logo">Client 7</div>
+          <div class="client-logo c1">NOVA</div>
+          <div class="client-logo c2">APEX</div>
+          <div class="client-logo c3">PULSE</div>
+          <div class="client-logo c4">ORBIT</div>
+          <div class="client-logo c5">VERTEX</div>
+          <div class="client-logo c6">SPARK</div>
+          <div class="client-logo c7">FLUX</div>
         </div>
       </section>
     </main>
@@ -140,7 +142,7 @@
       <div class="footer-col">
         <h3>TWITTER FEED</h3>
         <p class="date">23 oct</p>
-        <p>In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla.</p>
+        <p>Запустили новый редизайн на CSS Grid! Зацените обновленную цветовую палитру и плавные карточки.</p>
       </div>
 
       <div class="footer-col">
@@ -158,9 +160,9 @@
       <div class="footer-col">
         <h3>SOCIAL NETWORKS</h3>
         <div class="social-grid">
-          <a href="#" class="soc-big">t</a>
-          <a href="#" class="soc-big">f</a>
-          <a href="#" class="soc-big">g+</a>
+          <a href="#" class="soc-big tw">t</a>
+          <a href="#" class="soc-big fb">f</a>
+          <a href="#" class="soc-big gp">g+</a>
           <a href="#" class="soc-small">v</a>
           <a href="#" class="soc-small">yt</a>
           <a href="#" class="soc-small">fl</a>
@@ -171,9 +173,9 @@
 
       <div class="footer-col footer-copy">
         <div class="logo light">
-          <span class="logo-box"></span>whitesquare
+          <span class="logo-box"></span>white<b>square</b>
         </div>
-        <p>Copyright © 2012 Whitesquare. A pcklab creation</p>
+        <p>Copyright © 2026 Whitesquare. Grid Design</p>
       </div>
     </div>
   </footer>
